@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes/user-routes')
 const app = express();
 const cookieParser = require('cookie-parser')
-var port = 3000;
+var port = 5000;
 
 app.use(cookieParser())
 app.use(express.json())
